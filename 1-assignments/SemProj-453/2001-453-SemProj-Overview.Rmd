@@ -1,0 +1,176 @@
+---
+title: "DSCI352-452, ITFun:ADSwR SemesterProject"
+author: "Laura S. Bruckman, Roger H. French"
+date:  "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  pdf_document:
+    toc: true
+    number_sections: true
+    toc_depth: 6
+    highlight: tango
+  html_document:
+    toc: yes
+urlcolor: blue
+---
+
+# SemProj: Data Science Research Project
+
+A Data Analysis/Prediction & Modeling Project
+
+<!--
+## Reporting Obligations
+
+  - Weekly Progress Update reports as Rmd/pdfs
+  - Three SemProj Presentations
+    - Done on the 3 segments of your Data Science Research Project
+  - Final Report
+--> 
+## Reporting Obligations
+
+  - Weekly Progress Update reports as Rmd/pdfs
+  - Two SemProj Presentations
+    - Done on the segments of your Data Science Research Project
+  - Final Report, pulling it all together
+
+## Purpose of Semester Project Assignment
+
+In the Semester Project, for students enrolled in DSCI352, 
+
+  * you will take a four-part approach 
+      - to doing a data analysis through EDA and Insights 
+      - for a topic from your area of research interest. 
+  * If you are able to do some modeling and statistical learning, all the better.  
+  
+For ITFun:ADSwR students
+
+  - We'll take a 2 part approach
+  - With reporting on a+b, then c+d
+  - Presentations in class
+  - With Peer Grading 
+
+## Basic steps we use to construct a data analysis.
+
+Modified from Jeff Leek’s slides 
+
+  * (available in your repo in class/Leek) 
+
+### SemProj. Part a) Define Question
+
+  * Background on the research area and critical issues
+  * Define the question
+  * Define the ideal data set
+  * Determine what data you can access
+  * Define critical capabilities and identify packages you will draw upon
+  * Obtain the data, define you target data structure
+  * Clean and tidy the data
+
+### SemProj Part b) Cleaning and EDA
+
+  * Write you databook, defining variables, units and structures
+  * Data visualization and exploratory data analysis
+  * Observations of trends and functional forms
+  * Power transformations
+  * Validate with reference to domain knowledge
+  * Evaluate the types of Modeling Approaches to take
+
+### SemProj Part c) Modeling and Statistical Learning
+
+  * Types of modeling to try
+  * Statistical prediction/modeling
+  * Model selection
+  * Cross-validation, Predictive R2
+  * Interpret results
+  * Challenge results
+
+### SemProj Part d) Present your final models and learnings
+
+  * Present your results
+  * Present reproducible code
+  * Comparison to other modeling approaches in the literature
+
+You will use .R scripts and 
+
+  * do reports and presentations in .Rmd files, 
+  * so that they are interactive, reproducible, open-science presentations.
+
+Organize and store you code in your repo.
+
+You will turn in all code (.R and .Rmd) and datasets as part of the project.
+
+In each class we will have a discussion section during Practicum, 
+
+  * to discuss your progress, experiences and questions.
+
+## Final Semester Project Report Structure and Format
+
+For DSCI352, the final data science research report should be written like a scientific paper 
+
+  * and have the following types of sections.
+    + Title
+    + Author
+    + Author Affilication
+    + License: ideally CC-BY-SA 4.0 (but a license choice is yours)
+    + Abstract
+    + IntroductionModeling
+    + Data Science Methods
+    + Exploratory Data Analysis
+    + Statistical Learning: Modeling & Prediction(if appropriate)
+    + Discussion
+    + Conclusions
+    + Acknowledgements
+    + References, Citations
+
+
+### Abstract
+  Summary of the nature, finding and meaning of your data analysis project.
+
+### Introduction
+  Background and motivation of the Data Science question
+
+### Data Science Methods
+  To be applied (such as image processing, time-series analysis, spectral analysis etc
+
+###  Exploratory Data Analysis
+  Results and steps in the data analysis
+
+### Statistical Learning: Modeling & Prediction
+  If your analysis can accomplish some modeling, include it here.
+
+### Discussion
+  Discussion of the answers to the data science questions framed in the introduction
+
+###  Conclusions
+
+### Acknowledgements
+
+### References
+
+
+##  How to make your report
+
+  The report is done as an Rmarkdown document, 
+
+  - which can be run/compiled to produce two versions of the report as a pdf. 
+
+One shows your R code and figures, 
+
+  - and the other doesn’t show R code, just your figures.
+
+You’ll then turn in a zip file (and leave a copy in your repo), 
+
+  - with the dataset 
+    - (if its not to huge, if it is large, can you make a smaller dataset), 
+  - Rmd file that works, and the two pdf reports.
+
+Just choose to do a pdf report, 
+
+  - instead of a set of presentation slides.
+
+The license choice of CC-BY-SA 4.0 is suggested 
+
+  - so that others can use and build on your codes, in an open-source manner. 
+
+With more restrictive licenses, 
+
+  - others won’t be able to use your code in the future.
+

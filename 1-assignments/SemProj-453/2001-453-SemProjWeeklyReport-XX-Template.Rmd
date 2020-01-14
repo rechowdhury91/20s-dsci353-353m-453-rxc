@@ -1,0 +1,58 @@
+---
+title: "Weekly SempProj Update Report XX"
+author: "YOUR NAME"
+date:  "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  pdf_document:
+    toc: true
+    number_sections: true
+    toc_depth: 6
+    highlight: tango
+  html_document:
+    toc: yes
+urlcolor: blue
+---
+
+ \setcounter{section}{1}
+ \setcounter{subsection}{1}
+ \setcounter{subsubsection}{0}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.width = 6, fig.height = 4.5) 
+```
+
+ <!-- 
+ How to make comments inside Rmarkdown
+# Script Name: My class notes template for Fall 2018
+# Purpose: This is a template Rmd file to start a new class from
+# Authors: Roger H. French
+# License: Creative Commons Attribution-ShareAlike NonCommercial 4.0 International License.
+##########
+# Latest Changelog Entires:
+# v0.00.01 - Filename.Rmd - Roger French started this blank Rmd script
+-->
+
+<!-- Or on a single line like this -->
+ 
+
+#### What is your SemProject About
+
+  - Whats the Question
+  - And What Data Set
+  - And what EDA, Modeling etc will you be doing?
+
+#### What Progress this past week
+  
+#### Show some results
+
+  - Have links to sources you are finding
+  - Make figures of initial results and approaches
+  
+  
+#### What is the focus for next week?
+
+
+
+
+

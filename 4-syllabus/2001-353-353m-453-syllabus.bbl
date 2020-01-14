@@ -1,0 +1,166 @@
+\begin{thebibliography}{10}
+
+\bibitem{peng_r_2014}
+R.~D. Peng, {\em R {Programming} for {Data} {Science}}.
+\newblock Leanpub, Feb. 2014.
+
+\bibitem{peng_exploratory_2015}
+R.~D. Peng, {\em Exploratory {Data} {Analysis} with {R}}.
+\newblock Leanpub, Apr. 2015.
+
+\bibitem{davidm.diezOpenIntroStatisticsFourth2019}
+{David M. Diez}, {Mine {\c C}etinkaya-Rundel}, and {Christopher D. Barr}, {\em
+  {{OpenIntro Statistics}}: {{Fourth Edition}}}.
+\newblock {S.l.}: {OpenIntro, Inc.}, 4th edition~ed., 2019.
+
+\bibitem{james_introduction_2013}
+G.~James, D.~Witten, T.~Hastie, and R.~Tibshirani, {\em An {Introduction} to
+  {Statistical} {Learning}: with {Applications} in {R}}.
+\newblock Springer {Texts} in {Statistics}, New York: Springer, 1st ed. 2013,
+  corr. 5th printing 2015 edition~ed., Aug. 2013.
+
+\bibitem{hastieElementsStatisticalLearning2009}
+T.~Hastie, R.~Tibshirani, and J.~Friedman, {\em The {{Elements}} of
+  {{Statistical Learning}}: {{Data Mining}}, {{Inference}}, and {{Prediction}},
+  {{Second Edition}}}.
+\newblock Springer {{Series}} in {{Statistics}}, {New York}: {Springer-Verlag},
+  2~ed., 2009.
+
+\bibitem{wickham_r_2017}
+H.~Wickham and G.~Grolemund, {\em R for {Data} {Science}: {Import}, {Tidy},
+  {Transform}, {Visualize}, and {Model} {Data}}.
+\newblock O'Reilly Media, 1 edition~ed., Jan. 2017.
+
+\bibitem{francoischolletDeepLearning2018}
+{Francois Chollet} and {J. J. Allaire}, {\em Deep {{Learning}} with {{R}}}.
+\newblock {Manning Publications}, Jan. 2018.
+
+\bibitem{citrix_citrix_2014}
+Citrix, ``Citrix receiver for xen {VDIs} and xen apps,'' 2014.
+\newblock 00000.
+
+\bibitem{cse_portal_cwru_2014}
+C.~Portal, ``{CWRU} {CSE} portal for {VDIs} and {XenApps},'' 2014.
+
+\bibitem{r_r_2014}
+R, ``R (programming language),'' Aug. 2014.
+\newblock 00000 Page Version {ID}: 621330268.
+
+\bibitem{r_project_r_2014}
+R.~Project, ``The r project for statistical computing,'' 2014.
+
+\bibitem{rstudio_rstudio_2014}
+RStudio, ``{RStudio},'' 2014.
+\newblock 00000.
+
+\bibitem{peng_computing_2014}
+R.~Peng, ``Computing for data analysis: Week 1 - {YouTube},'' 2014.
+
+\bibitem{torfs_very_2014}
+P.~Torfs and C.~Brauer, ``A (very) short introduction to r,'' 2014.
+
+\bibitem{_portal:free_2014}
+``Portal:free software,'' Sept. 2014.
+\newblock 00000 Page Version {ID}: 581465934.
+
+\bibitem{_gvim_2014}
+``Gvim online,'' 2014.
+\newblock 00000.
+
+\bibitem{_neovim_2014}
+``Neovim,'' 2014.
+\newblock 00000.
+
+\bibitem{_git_2014-2}
+``Git (software) - wikipedia, the free encyclopedia,'' 2014.
+\newblock 00000.
+
+\bibitem{_git_2014}
+``Git,'' 2014.
+\newblock 00027.
+
+\bibitem{_github_2014}
+``{GitHub},'' 2014.
+\newblock 00004.
+
+\bibitem{_bitbucket:_2014}
+``Bitbucket: Free source code hosting for git,'' 2014.
+\newblock 00000.
+
+\bibitem{stack_exchange_stack_2014}
+S.~Exchange, ``Stack exchange,'' 2014.
+
+\bibitem{python_python_2014}
+T.~Python, ``The python tutorial — python v2.7.8 documentation,'' 2014.
+\newblock 00000.
+
+\bibitem{python_python.org_2013}
+Python, ``Python.org,'' 2013.
+
+\bibitem{_hitchhikers_2014}
+``The hitchhiker’s guide to python! — the hitchhiker's guide to python,''
+  2014.
+\newblock 00000.
+
+\bibitem{_kennethreitz/python-guide_2014}
+``kennethreitz/python-guide,'' 2014.
+\newblock 00000.
+
+\bibitem{numpy_numpy_2014}
+NumPy, ``{NumPy} — numpy,'' 2014.
+
+\bibitem{guyer_fipy:_2009}
+J.~E. Guyer, D.~Wheeler, and J.~A. Warren, ``{FiPy}: Partial differential
+  equations with python,'' {\em Computing in Science \& Engineering}, vol.~11,
+  pp.~6--15, May 2009.
+
+\bibitem{scipy_scipy.org_2014}
+SciPy, ``{SciPy}.org — {SciPy}.org,'' 2014.
+
+\bibitem{pythonxy_pythonxy_2014}
+PythonXY, ``pythonxy - scientific-oriented python distribution based on qt and
+  spyder - google project hosting,'' 2014.
+\newblock 00000.
+
+\bibitem{ipython_ipython_2014}
+IPython, ``{IPython} shell and notebook,'' 2014.
+
+\bibitem{spyder_spyder_2014}
+Spyder, ``Spyder is the scientific {PYthon} development environment,'' 2014.
+\newblock 00000.
+
+\bibitem{_tex_2014}
+``{TeX} users group ({TUG}),'' 2014.
+\newblock 00000.
+
+\bibitem{latex_latex_2014}
+LaTeX, ``{LaTeX} - wikibooks, open books for an open world,'' 2014.
+\newblock 00000.
+
+\bibitem{zotero_zotero_2014}
+Zotero, ``Zotero reference/citation manager, {BibTeX} client,'' 2014.
+
+\bibitem{french_dsci351-4511:_2015}
+R.~H. French, ``{DSCI}351-4511: Exploratory data analysis for energy \&
+  manufacturing,'' 2015.
+
+\bibitem{commons_creative_2014}
+C.~Commons, ``Creative commons - about the licenses,'' 2014.
+
+\bibitem{_creative_2015}
+``Creative commons — attribution-{ShareAlike} 4.0 international — {CC}
+  {BY}-{SA} 4.0,'' 2015.
+
+\bibitem{commons_creative_2014-1}
+C.~Commons, ``Creative commons license,'' Aug. 2014.
+\newblock 00000 Page Version {ID}: 618703231.
+
+\bibitem{gnu_gnu.org_2014}
+Gnu, ``gnu.org,'' 2014.
+\newblock 00007.
+
+\bibitem{gpl_gnu_2014}
+G.~GPL, ``{GNU} general public license,'' Aug. 2014.
+\newblock 00000 Page Version {ID}: 622300724.
+
+\end{thebibliography}

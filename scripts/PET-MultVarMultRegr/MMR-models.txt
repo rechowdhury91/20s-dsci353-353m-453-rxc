@@ -1,0 +1,27 @@
+The data used for MMR Modeling is in: V:\vuv-data\proj\3M\WRC\PIT in sub folders for color, gloss, and haze.
+
+The metadata key files are located in: V:\vuv-data\proj\3M\WRC
+    samples: mmmSampleKey.csv
+    indoor exposure: mmmIndoorKey.csv
+    outdoor exposure: mmmOutdoorKey.csv
+    outdoor sample mouting: mmmOutdoorMount.csv
+
+The MMR modeling script is in the 18-matls repo: 
+    .\18-matls\scripts\dgr-1706-MMRSplinesModeling. 
+    This script also contains a good bit of data pre-processing, data cleaning, variable selection, prediction, and plotting as well. 
+    Once the data frame was set up, the variable selection and MMR modeling fitting was quite straightforward: 
+
+# Forward Selection - White PET
+    null <- lm(cbind(dE,dGloss60)~1,data = outdoor.white)
+    full <- lm(cbind(dE,dGloss60)~bs(UVA.340)+Tracking+Humidity+OnGlass+UnderGlass+M238+M243+MMM6+UL+U2, data = outdoor.white)
+    mStep(null, trace = TRUE,scope=list(upper=full), k=2, direction="forward", data=outdoor.white)
+
+# Natural Spline Version
+    vper <- c(91,94)
+    knot_Q <- quantile(outdoor.white$UVA.340,vper/100)
+
+    model.outdoor.white <- lm(cbind(dE, dGloss60) ~ M238 + MMM6 + UL + U2 + M243 + Humidity + 
+                            ns(UVA.340,knot=knot_Q) + ns(UVA.340,knot=knot_Q):M243 +
+                           ns(UVA.340,knot=knot_Q):M238 + ns(UVA.340,knot=knot_Q):U2 + ns(UVA.340,knot=knot_Q):UL +
+                           ns(UVA.340,knot=knot_Q):MMM6 + ns(UVA.340,knot=knot_Q):Humidity , data=outdoor.white)
+    summary(model.outdoor.white) 

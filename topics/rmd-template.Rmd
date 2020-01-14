@@ -1,0 +1,76 @@
+---
+title: "CWRU DSCI353-353M-453: Week00a  "
+author: "Roger H. French, Peitian Wang"
+date:  "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  pdf_document:
+    toc: true
+    number_sections: true
+    toc_depth: 6
+    highlight: tango
+  html_document:
+    toc: yes
+urlcolor: blue
+bibliography: refs.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.width = 6, fig.height = 4.5) 
+```
+
+ \setcounter{section}{1}
+ \setcounter{subsection}{1}
+ \setcounter{subsubsection}{0}
+ 
+ <!-- 
+ How to make comments inside Rmarkdown
+# Script Name: My class notes template for Fall 2016
+# Purpose: This is a template Rmd file to start a new class from
+# Authors: Roger H. French
+# License: Creative Commons Attribution-ShareAlike 4.0 International License.
+##########
+# Latest Changelog Entires:
+# v0.00.01 - Filename.Rmd - Roger French started this blank Rmd script
+-->
+
+<!-- Or on a single line like this -->
+ 
+
+#### Reading, Homeworks, Projects, SemProjects
+
+  * Lab Excercises: 
+    * 
+    * 
+  * Readings: 
+    * 
+    * 
+  * 453 SemProjects:  
+    * 
+    * 
+  * Final Exam
+    * Thursday May 2nd, 2019, 12 noon to 3pm, Nord 356
+
+
+#### Textbooks
+
+##### Introduction to R and Data Science
+
+  - [Peng: R Programming for Data Science](https://play.google.com/books/reader?printsec=frontcover&output=reader&id=F1mVHgAAAEAJ&pg=GBS.PA1)
+  - [Peng: Exploratory Data Analysis with R](https://play.google.com/books/reader?printsec=frontcover&output=reader&id=R-09BgAAAEAJ&pg=GBS.PA1)
+  
+##### Textbooks for this class
+
+  - [Open Intro Stats, v3](https://play.google.com/books/reader?printsec=frontcover&output=reader&id=G2EOBwAAAEAJ&pg=GBS.PA0)
+  - [Wickham: R for Data Science](https://play.google.com/books/reader?printsec=frontcover&output=reader&id=I6y3DQAAQBAJ&pg=GBS.PA1)
+  - [Hastie: Intro to Statistical Learning with R](https://play.google.com/books/reader?printsec=frontcover&output=reader&id=KtuPCwAAAEAJ&pg=GBS.PA0)
+  - [Chollet, Allaire: Deep Learning with R](https://play.google.com/books/reader?id=Ize8IgAAAEAJ&pg=GBS.PA68.w.0.0.0.1)
+  
+#### Syllabus
+
+<!-- ![DSCI353-453 Syllabus](./figs/syllabus.png){ width=80% } -->
+
+![DSCI353-453 Syllabus](./figs/syllabus.png)
+
+
+

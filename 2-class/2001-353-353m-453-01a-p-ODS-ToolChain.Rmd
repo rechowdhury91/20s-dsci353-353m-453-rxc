@@ -1,0 +1,219 @@
+---
+title: "DSCI353-353m-453: Class 01a-p Open Data Science Tool Chain"
+subtitle: "2001-353-353m-453-00a-p-Open Data Science Tool Chain"
+author: "Roger H. French, Peitian Wang"
+date:  "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  pdf_document:
+    toc: true
+    number_sections: true
+    toc_depth: 6
+    highlight: tango
+  html_document:
+    toc: yes
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+ \setcounter{section}{1}
+ \setcounter{subsection}{1}
+ \setcounter{subsubsection}{2}
+ 
+ <!-- 
+ How to make comments inside Rmarkdown
+# Script Name: My class notes template for Fall 2016
+# Purpose: This is a template Rmd file to start a new class from
+# Authors: Roger H. French
+# License: Creative Commons Attribution-ShareAlike 4.0 International License.
+##########
+# Latest Changelog Entires:
+# v0.00.01 - Filename.Rmd - Roger French started this blank Rmd script
+-->
+
+<!-- Or on a single line like this -->
+
+#### Literate Programing: Donald Knuth
+
+[Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
+
+  - Bachelors and Masters degrees from CWRU
+  - PhD from CalTech
+  - CS Professor at Stanford
+  
+Did a great many things in Computer Science
+
+  - [TAOCP: The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)
+    - Started in 1962, and not yet finished
+    - Currently 7 volumes
+  - [He also develeded TeX, the precursor to LaTeX](https://en.wikipedia.org/wiki/TeX)
+  
+##### [Literature Programming](https://en.wikipedia.org/wiki/Literate_programming), was another of his goals
+
+Literate programming is a programming paradigm introduced by Donald Knuth 
+
+  - in which a program is given as an explanation of the program logic 
+    - in a natural language, such as English, 
+  - interspersed with snippets of macros and traditional source code, 
+    - from which a compilable source code can be generated.
+
+The literate programming paradigm, as conceived by Knuth, 
+
+  - represents a move away from writing programs 
+    - in the manner and order imposed by the computer, 
+    - and instead enables programmers to develop programs in the order 
+    - demanded by the logic and flow of their thoughts. 
+  - Literate programs are written as an uninterrupted exposition of logic 
+    - in an ordinary human language, much like the text of an essay, 
+    - in which macros are included to hide abstractions and traditional source code.
+  - Literate programming (LP) tools are used 
+    - to obtain two representations from a literate source file: 
+    - one suitable for further compilation or execution by a computer, the "tangled" code, 
+    - and another for viewing as formatted documentation, which is said to be "woven" from the literate source. 
+  - While the first generation of literate programming tools 
+    - were computer language-specific, 
+    - the later ones are language-agnostic 
+    - and exist above the programming languages.
+
+Now adays one can integrate R and Python code in a common shared environmet, 
+
+  - as can be done with Rstudio v1.2 and the reticulate package.
+  - We use this in our data analytics in the SDLE Research Center at CWRU. 
+
+#### Your Open Data Science Tool Chain
+
+##### Its all about a Data Science Tool Chain
+
+  * Use R and build on the communities foundation
+  * Use Rstudio as a comfy environment
+  * Share your Open Data and Open Source Code
+  * Produce Reproducible Science with Rmarkdown  
+    + Use [Creative Commons Licenses](https://creativecommons.org/)
+    + Or other [Open Source Licenses](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses)
+    + Such as the [Gnu Public License: GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License)
+
+
+###### Pilot your DSCI studies using available data
+
+  * Find available data sets
+  * Before starting the costly process of making data
+
+###### Use Git repositories
+
+  * For version control
+  * For Collaboration
+  * For Open Science sharing
+
+
+##### Twitter used for Data Science
+
+As part of setting up our Data Science Tool Chain
+
+  * Signup for a Twitter account 
+  * [Using Twitter in university research](http://blogs.lse.ac.uk/impactofsocialsciences/files/2011/11/Published-Twitter_Guide_Sept_2011.pdf)
+  * [10 Commandments of Twitter for Academics](http://chronicle.com/article/10-Commandments-of-Twitter-for/131813/)
+
+Data Science People to follow on Twitter
+
+  - @hadleywickham 
+  - @jtleek Jeff Leek JHU
+  - @rdpeng Roger Peng JHU  
+  - @simplystats
+  - @Rbloggers
+  - @JennyBryan 
+  - @hspter Hilary Parker
+  - @NSSDeviations
+  - @rstudio
+  - @rstudiotips
+  - @R_Programming 
+  - @CRANberriesFeed
+  - @kaggle
+  - @SciPyTip
+  - @PyData
+  - @debian
+  - @ubuntu
+  - @GuardianData
+  - @UpshotNYT
+  - @EdwardTufte
+  - @ProjectJupyter
+  - @doctorow Cory Doctorow
+  - @gvanrossum founder of Python
+  - @NateSilver538
+  - @cutting  founder of Hadoop
+  - @RProgLangRR
+  - @BitbucketStatus
+  - @CWRUITS_STATUS
+  - @cshirky Clay Shirky
+  - 
+
+##### Sign up for a Stack Exchange Account
+
+Stack Exchange, Stack Overflow
+
+  * are a Q&A community focused on many topics.  
+
+Stack Overflow allows you to search by tag
+
+  * r and rmarkdown are useful tags for SO
+
+###### [Stack Exchange's Tour of Stack Overflow](http://stackoverflow.com/tour)  
+
+###### Specific Stack Exchange websites
+
+  * for [SX Data Science](https://datascience.stackexchange.com/)                             
+  * for [SX Statistics on Cross Validated](http://stats.stackexchange.com/) 
+  * for [SX Open Data](http://opendata.stackexchange.com/)             
+
+##### Efficiently browse you SX sites
+
+  * Google (but more random)
+  * [The Stack Exchange apps](http://stackapps.com/) 
+  * Using an [RSS Feed reader such as Feedly](http://feedly.com/i/latest) is a good way
+
+##### Online Git Server Communities
+
+  * After your [BitBucket Account](http://bitbucket.org) 
+  * You'll probably want a [GitHub](http://github.com/) account,.
+  * Many Rprojects are there, and 
+  * you can fork their repo's to inspect the code very easily.
+
+##### Slack, another component of Agile Sofware Development
+
+  - [cwru-dsci.slack.com](https://cwru-dsci.slack.com/)
+    - an online collaboration tool
+  - Its an intrinsic part of agile software development
+    - There is slack app for phones
+    - And client for computers, its on vdi.
+
+
+#### You Online Data Science Portfolio
+
+  - Doing open, reproducible data science
+  - Lets you share a portfolio of codes and projects
+  - Cite it in your resume
+  - Build a community of supporters and collaborators
+  - Need to be conscious of data use terms and agreements
+    - Funded research at CWRU falls under IP agreements
+    - So when you consider licenses you want to use
+    - They must be consistent with the IP terms that came
+    - With datasets and codes
+  
+##### An Example, Emeline Liu
+
+  - [emelineliu.com](http://emelineliu.com/)
+    -  This website, which runs off of [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/), is my latest project. 
+    - Right now, I'm using [Poole](http://getpoole.com/) as a foundation for my website/blog.
+
+#### Links
+ 
+  - http://www.r-project.org 
+  - Rory Winston, for the [Learning R Intro](http://www.theresearchkitchen.com/archives/1017)
+  - StackExchange [http://stackexchange.com/sites](http://stackexchange.com/sites)
+  - Twitter [http://twitter.com](http://twitter.com)
+  - HipChat [http://hipchat.com](http://hipchat.com)
+  - [emelineliu.com](http://emelineliu.com/)
+  - [Github Pages](https://pages.github.com/) 
+  - [Jekyll](https://jekyllrb.com/)
+  - [Poole](http://getpoole.com/)
