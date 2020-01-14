@@ -121,7 +121,18 @@ For students new to R, Coding, Inferential Statistics
     - Is a Semester long Data Science Project Class
     - Providing a data analysis for inclusion 
     - In your Data Science Portfolio
+
+##### DSCI45x Graduate level courses
+
+  - For graduate students, 
+    - DSCI451 is not a required prerequisite
+  - Therefore some DSCI453 grad. students
+    - Do not have familiarity with Open Data Science, R, Git etc.
+  - For these "New to R" students
+    - The initial 3 weeks in class have optional content
+    - To get people familiar with Open Data Science
     
+
 ##### Semester Data Science Projects
 
   - Are done in DSCI352, 352M by students who have completed both DSCI351,3
