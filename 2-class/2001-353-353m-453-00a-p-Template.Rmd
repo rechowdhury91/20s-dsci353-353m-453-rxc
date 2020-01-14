@@ -45,7 +45,7 @@ knitr::opts_chunk$set(fig.width = 6, fig.height = 4.5)
   - Office Hours: 
     - Mondays, Wednesdays 4pm to 5pm in White 540 
   - Final Exam
-    - Thursday March 30th, 2020, 12 noon to 3pm
+    - Thursday April 30th, 2020, 12 noon to 3pm
 
 #### Textbooks
 

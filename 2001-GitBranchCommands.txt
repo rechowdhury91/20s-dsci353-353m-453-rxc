@@ -10,7 +10,7 @@
   git pull . master
 
 # If you want to pull all new remote branches others have made, and you don't have locally yet.
-  git pull --all
+  git pull --all :/
 
 #If you want to make a new branch from master, and switch to that new branch.
   git checkout master

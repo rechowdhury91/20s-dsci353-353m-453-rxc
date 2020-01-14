@@ -61,7 +61,7 @@ knitr::opts_chunk$set(echo = TRUE)
   - Office Hours: 
     - Mondays, Wednesdays 4pm to 5pm in White 540 
   - Final Exam
-    - Thursday March 30th, 2020, 12 noon to 3pm
+    - Thursday April 30th, 2020, 12 noon to 3pm
 
 #### If you are new to R (Or want a quick refresher)
 
