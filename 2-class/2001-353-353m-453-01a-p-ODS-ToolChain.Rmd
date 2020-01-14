@@ -205,7 +205,7 @@ Stack Overflow allows you to search by tag
   - [emelineliu.com](http://emelineliu.com/)
     -  This website, which runs off of [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/), is my latest project. 
     - Right now, I'm using [Poole](http://getpoole.com/) as a foundation for my website/blog.
-
+  
 #### Links
  
   - http://www.r-project.org 

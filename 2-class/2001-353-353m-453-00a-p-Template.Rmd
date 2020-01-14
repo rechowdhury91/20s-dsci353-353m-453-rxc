@@ -42,7 +42,8 @@ knitr::opts_chunk$set(fig.width = 6, fig.height = 4.5)
     - Assistance on SemProjects is done in DSCI352-352m-452 Class
       - DSCI352 meetings during Friday Community Hour, 12:45 to 1:45pm in Olin 303
       - Is taught by Prof. Laura Bruckman (lsh41@case.edu)
-  - Office Hours: Mondays, Wednesdays 4pm to 5pm in White 540 
+  - Office Hours: 
+    - Mondays, Wednesdays 4pm to 5pm in White 540 
   - Final Exam
     - Thursday March 30th, 2020, 12 noon to 3pm
 

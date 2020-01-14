@@ -131,7 +131,7 @@ For students new to R, Coding, Inferential Statistics
   - For these "New to R" students
     - The initial 3 weeks in class have optional content
     - To get people familiar with Open Data Science
-    
+      
 
 ##### Semester Data Science Projects
 
