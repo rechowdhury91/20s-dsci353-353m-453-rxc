@@ -221,6 +221,7 @@ options("digits.secs" = 3)
 ### Links
  
   - https://www.r-project.org 
+  
   - https://help.ubuntu.com/community/UsingTheTerminal
   
   
