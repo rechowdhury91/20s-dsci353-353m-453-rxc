@@ -67,6 +67,7 @@ options("digits.secs" = 3)
    - Slack client on ODS VDI
    - Can put slack app on phone, or on your notebook
   4. Setup Git
+  
     - make H:\\Git folder 
     - git config name and email
   5. Setup StackExchange
@@ -128,7 +129,7 @@ options("digits.secs" = 3)
     * Git is also a linux program 
   * All Git commands are entered at the Bash Prompt
   * All Git commands start with `git`
- ` * So that the Bash prompt know who to send the subsequent command to
+  * So that the Bash prompt know who to send the subsequent command to
     
 ##### Check your Git Server Configuration
           
@@ -159,7 +160,7 @@ options("digits.secs" = 3)
     * `pwd` see where you are
     * `ls` see what files are there
     * `mkdir Git`  this will make a new directory at H:Git
-      + So you'll keep all your repositories under H:Git
+      + So you'll keep all your repositories under H:Git 
 
 #### Important Note: **Windows ignores case, Linux and BSD-Unix (Mac) respect case**
 
