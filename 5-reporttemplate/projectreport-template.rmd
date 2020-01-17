@@ -1,0 +1,77 @@
+---
+title: "Project Title"
+subtitle: "Subtitle" 
+author: "Author Name"
+date:  "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  bookdown::pdf_document2:
+    toc: true
+    toc_depth: 4
+    fig_caption: true
+fontsize: 12pt
+geometry: "left=1cm,right=1cm,top=1.5cm,bottom=1.5cm"
+always_allow_html: yes
+header-includes:
+- \usepackage[section]{placeins}
+- \usepackage{fixltx2e}
+- \usepackage{longtable}
+- \usepackage{pdflscape}
+- \usepackage{graphicx}
+- \usepackage{caption}
+- \usepackage{gensymb}
+- \usepackage{subcaption}
+- \DeclareUnicodeCharacter{2264}{$\pm$}
+- \DeclareUnicodeCharacter{2265}{$\geq$}
+- \usepackage{fancyhdr}
+- \usepackage{lipsum}
+#- \pagestyle{fancy}
+#- \fancyhead{DRAFT}
+---
+
+```{r setup, include = FALSE}
+
+#Please modify the chunk set up as you wish, some options are in # below
+knitr::opts_chunk$set(fig.align = "center")
+
+#echo = FALSE, comment = FALSE, warning = FALSE, message = FALSE, dpi = 600, dev = 'png',
+#knitr::opts_chunk$set(fig.width=12, fig.height=8) 
+
+#Add packages
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+
+#Set universal them for figures
+theme_set(theme_light())
+
+```
+
+# Abstract
+  * Summary of the nature, finding and meaning of your data analysis project. 
+     
+# Executive Summary
+  * Bulleted List of the Changes in the Document since the Last Update
+   
+# Introduction
+  * Background and motivation of the Data Science question. The ``Why'' of the research
+   
+# Data Science Methods
+  * To be applied (such as image processing, time-series analysis, spectral analysis etc
+   
+# Exploratory Data Analysis
+  * Results and steps in the data analysis
+  
+# Statistical Learning: Modeling \& Prediction
+  * If you analysis can accomplish some modeling, include it here.
+   
+# Discussion
+  * Discussion of the answers to the data science questions framed in the introduction
+  
+# Conclusions
+   
+# Acknowledgments
+   
+# References
+
+* Include a bib file in the markdown report
+
